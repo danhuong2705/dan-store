@@ -1,0 +1,27 @@
+.wrapper {
+  height: 91px;
+  padding: 20px 0;
+  .leftMenu {
+    .menuItem {
+      margin: 0 8px;
+      cursor: pointer;
+    }
+  }
+  .middle {
+    cursor: pointer;
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+  }
+  .rightMenu {
+    img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      margin: 0 8px;
+      cursor: pointer;
+    }
+  }
+}
