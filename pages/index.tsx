@@ -9,7 +9,7 @@ export default function Home() {
         <title>Dan Store</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>Welcome to Dan Store</Layout>
+      Welcome to Dan Store
     </>
   );
 }
