@@ -1,4 +1,8 @@
 .wrapper {
+  position: sticky;
+  background-color: #ffffff;
+  z-index: 1;
+  top: 0;
   height: 91px;
   padding: 20px 0;
   .leftMenu {

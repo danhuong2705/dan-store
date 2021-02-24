@@ -12,9 +12,11 @@ const Header: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className={`${styles.middle} center`}>
-        <img src="/assets/crown.svg" />
-      </div>
+      <Link href="/">
+        <div className={`${styles.middle} center`}>
+          <img src="/assets/crown.svg" />
+        </div>
+      </Link>
       <div className={`${styles.rightMenu} space-between`}>
         <Link href="/account">
           <img src="/assets/user.svg" />
