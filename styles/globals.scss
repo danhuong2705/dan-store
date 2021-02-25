@@ -25,11 +25,14 @@ a {
   align-content: center;
 }
 .page-width {
-  width: 1500px;
-  max-width: 1500px;
+  width: 1264px;
+  max-width: 1264px;
   min-height: 100vh;
   margin: 0 auto;
 }
 .flex-column {
   flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }

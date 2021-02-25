@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 4px;
+  align-items: center;
+  cursor: pointer;
+  .name {
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-size: 14px;
+      margin-top: 8px; 
+  }
+  img {
+    width: 340px;
+    height: 425px;
+    object-fit: contain;
+  }
+  .price {
+    margin-top: 8px;  
+    font-size: 14px;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../src/components/Layout/Layout";
+import Layout from "../src/components/Layout";
 import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
